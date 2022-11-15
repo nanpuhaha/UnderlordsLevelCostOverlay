@@ -28,7 +28,7 @@ class mymainwindow(QtWidgets.QMainWindow):
             QtCore.Qt.LeftToRight, QtCore.Qt.AlignCenter,
             QtCore.QSize(64, 64),
             QtWidgets.qApp.desktop().availableGeometry()))        
-        
+
         # Creating label
         self.label = QtWidgets.QLabel(self)
         self.label.move(16,16)
@@ -38,7 +38,7 @@ class mymainwindow(QtWidgets.QMainWindow):
         self.image = None
         self.BB_top_left = None
         self.BB_top_right = None
-        
+
         self.show()
 
     def keyPressEvent(self, event):
